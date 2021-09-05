@@ -1,0 +1,12 @@
+pyinstaller -y -F -w --paths E:\Programs\Library\bin PricingTool.py
+
+
+
+pyinstaller -y -F -w --debug --log-level TRACE PricingTool.py
+
+
+
+
+pyinstaller -y -F -w PricingTool.spec
+
+
